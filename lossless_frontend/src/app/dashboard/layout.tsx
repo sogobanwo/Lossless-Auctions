@@ -17,7 +17,7 @@ export default function Component({ children }: { children: React.ReactNode }) {
     router.push('/');
   }
   return (
-    <div className="grid min-h-screen w-full lg:grid-cols-[280px_1fr]">
+    <div className="grid h-screen w-full lg:grid-cols-[280px_1fr] ">
       <div className="hidden border-r border-[#C9E4CA]/50 bg-[#030E19]/70 lg:block dark:bg-gray-800/40">
         <div className="flex h-full max-h-screen flex-col gap-2">
           <div className="flex h-[60px] items-center border-b border-[#C9E4CA]/50  px-6">
@@ -53,20 +53,12 @@ export default function Component({ children }: { children: React.ReactNode }) {
                 Manage auctions
               </Link>
               <Link
-                className="flex items-center text-[#C9E4CA] gap-3 rounded-lg hover:bg-gray-100 px-3 py-2  transition-all hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-                href="/dashboard/my-assets"
-              >
-                <BoxIcon className="h-4 w-4" />
-                My Assets
-              </Link>
-              <Link
                 className="flex items-center text-[#C9E4CA] gap-3 rounded-lg hover:bg-gray-100 px-3 py-2  transition-all hover:text-gray-900 dark:bg-gray-800 dark:text-gray-50 dark:hover:text-gray-50"
                 href="/dashboard/create-auction"
               >
                 <PlusIcon className="h-4 w-4" />
                 Create Auction
               </Link>
-              
             </nav>
           </div>
         </div>
@@ -92,7 +84,7 @@ export default function Component({ children }: { children: React.ReactNode }) {
           <ConnectButton />
 
         </header>
-        <main className="flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-6">
+        <main className="flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-6 h-[100vh - 60px]">
           {children}
         </main>
       </div>

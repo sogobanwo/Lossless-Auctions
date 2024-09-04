@@ -50,7 +50,7 @@ const Page = (props: Props) => {
                 <div className="p-4">
                    <h3 className="text-lg font-semibold">{auction.name}</h3>
                   <p className="mt-2 text-gray-500 dark:text-gray-400"> Min Bid: {"  "}
-                    {ethers.formatEther(auction.minValidBid)} Avax
+                    {ethers.formatEther(auction.minValidBid)} ETH
                   </p> 
                   <Link href={`/dashboard/explore-auctions/${auction.auctionId}`} className="mt-4 text-sm hover:underline" >
                     View Auction

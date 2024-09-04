@@ -10,7 +10,7 @@ export const Avalanche_ID = 43113;
 const Avalanche_Fuji = {
   chainId: Avalanche_ID,
   name: "Avalanche Fuji Testnet",
-  currency: "AVAX",
+  currency: "ETH",
   explorerUrl: "https://testnet.snowtrace.io",
   rpcUrl:  process.env.NEXT_PUBLIC_RPC_URL,
 };

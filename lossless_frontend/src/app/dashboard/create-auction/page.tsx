@@ -168,9 +168,9 @@ const Page = (props: Props) => {
 
             <div className='flex flex-col gap-2'>
 
-              <Label htmlFor="mail" className='text-sm'>Starting Bid (Avax)</Label>
+              <Label htmlFor="mail" className='text-sm'>Starting Bid (ETH)</Label>
 
-              <Input type="number" step={0.00000000000001} defaultValue={""} placeholder="Enter bid in AVAX" {...register("startingBid")} className='bg-transparent border-black' />
+              <Input type="number" step={0.00000000000001} defaultValue={""} placeholder="Enter bid in ETH" {...register("startingBid")} className='bg-transparent border-black' />
 
             </div>
 
