@@ -1,15 +1,17 @@
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
-import { useState } from "react"
+"use client";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { useState } from "react";
 
 export default function Component() {
-
-    const [timeRemaining, setTimeRemaining] = useState(3600)
-    const formatTime = (seconds: number) => {
-        const minutes = Math.floor(seconds / 60)
-        const remainingSeconds = seconds % 60
-        return `${minutes.toString().padStart(2, "0")}:${remainingSeconds.toString().padStart(2, "0")}`
-      }
+  const [timeRemaining, setTimeRemaining] = useState(3600);
+  const formatTime = (seconds: number) => {
+    const minutes = Math.floor(seconds / 60);
+    const remainingSeconds = seconds % 60;
+    return `${minutes.toString().padStart(2, "0")}:${remainingSeconds
+      .toString()
+      .padStart(2, "0")}`;
+  };
 
   return (
     <div className="flex flex-col items-center justify-center w-full min-h-screen bg-background">
@@ -27,7 +29,8 @@ export default function Component() {
             <div className="mt-4 text-center">
               <h2 className="text-2xl font-bold">Cosmic Odyssey</h2>
               <p className="text-muted-foreground">
-                Explore the wonders of the universe in this captivating NFT artwork.
+                Explore the wonders of the universe in this captivating NFT
+                artwork.
               </p>
             </div>
           </div>
@@ -48,7 +51,9 @@ export default function Component() {
               <div className="flex items-center justify-between">
                 <div className="text-muted-foreground">Time Remaining</div>
                 <div className="text-2xl font-bold">
-                  <span className="text-primary">{formatTime(timeRemaining)}</span>
+                  <span className="text-primary">
+                    {formatTime(timeRemaining)}
+                  </span>
                 </div>
               </div>
               <form className="grid gap-4">
@@ -61,5 +66,5 @@ export default function Component() {
         </div>
       </div>
     </div>
-  )
+  );
 }
