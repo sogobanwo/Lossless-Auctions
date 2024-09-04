@@ -79,7 +79,7 @@ const Page = (props: Props) => {
                     </Button>
                     <Button
                       variant="outline"
-                      className="text-green-500 hover:bg-green-500 hover:text-white"
+                      className="text-green-500 hover:bg-green-500 hover:text-white mt-2"
                       onClick={() => handleGoLive(auction.auctionId)}
                     >
                       Go Live
