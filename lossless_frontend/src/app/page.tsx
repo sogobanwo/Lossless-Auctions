@@ -132,13 +132,9 @@ export default function Component() {
                   <CardContent>
                     <div className="space-y-1">
                       <h3 className="text-lg font-bold">Vintage Typewriter</h3>
-<<<<<<< Updated upstream
-                      <p className="text-gray-500 dark:text-gray-400">Current Bid: 0.01 ETH</p>
-=======
                       <p className="text-gray-500 dark:text-gray-400">
-                        Current Bid: 0.01 Avax
+                        Current Bid: 0.01 ETH
                       </p>
->>>>>>> Stashed changes
                     </div>
                   </CardContent>
                   <CardFooter>
@@ -158,13 +154,9 @@ export default function Component() {
                   <CardContent>
                     <div className="space-y-1">
                       <h3 className="text-lg font-bold">Antique Vase</h3>
-<<<<<<< Updated upstream
-                      <p className="text-gray-500 dark:text-gray-400">Current Bid: 0.01 ETH</p>
-=======
                       <p className="text-gray-500 dark:text-gray-400">
-                        Current Bid: 0.01 Avax
+                        Current Bid: 0.01 ETH
                       </p>
->>>>>>> Stashed changes
                     </div>
                   </CardContent>
                   <CardFooter>
@@ -183,17 +175,12 @@ export default function Component() {
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-1">
-<<<<<<< Updated upstream
-                      <h3 className="text-lg font-bold">Rare Coin Collection</h3>
-                      <p className="text-gray-500 dark:text-gray-400">Current Bid: 0.01 ETH00</p>
-=======
                       <h3 className="text-lg font-bold">
                         Rare Coin Collection
                       </h3>
                       <p className="text-gray-500 dark:text-gray-400">
-                        Current Bid: 0.01 Avax00
+                        Current Bid: 0.01 ETH00
                       </p>
->>>>>>> Stashed changes
                     </div>
                   </CardContent>
                   <CardFooter>
@@ -213,13 +200,9 @@ export default function Component() {
                   <CardContent>
                     <div className="space-y-1">
                       <h3 className="text-lg font-bold">Vintage Jewelry Box</h3>
-<<<<<<< Updated upstream
-                      <p className="text-gray-500 dark:text-gray-400">Current Bid: 0.01 ETH</p>
-=======
                       <p className="text-gray-500 dark:text-gray-400">
-                        Current Bid: 0.01 Avax
+                        Current Bid: 0.01 ETH
                       </p>
->>>>>>> Stashed changes
                     </div>
                   </CardContent>
                   <CardFooter>
@@ -238,17 +221,12 @@ export default function Component() {
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-1">
-<<<<<<< Updated upstream
-                      <h3 className="text-lg font-bold">Antique Pocket Watch</h3>
-                      <p className="text-gray-500 dark:text-gray-400">Current Bid: 0.01 ETH</p>
-=======
                       <h3 className="text-lg font-bold">
                         Antique Pocket Watch
                       </h3>
                       <p className="text-gray-500 dark:text-gray-400">
-                        Current Bid: 0.01 Avax
+                        Current Bid: 0.01 ETH
                       </p>
->>>>>>> Stashed changes
                     </div>
                   </CardContent>
                   <CardFooter>
@@ -267,17 +245,12 @@ export default function Component() {
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-1">
-<<<<<<< Updated upstream
-                      <h3 className="text-lg font-bold">Vintage Vinyl Records</h3>
-                      <p className="text-gray-500 dark:text-gray-400">Current Bid: 0.01 ETH</p>
-=======
                       <h3 className="text-lg font-bold">
                         Vintage Vinyl Records
                       </h3>
                       <p className="text-gray-500 dark:text-gray-400">
-                        Current Bid: 0.01 Avax
+                        Current Bid: 0.01 ETH
                       </p>
->>>>>>> Stashed changes
                     </div>
                   </CardContent>
                   <CardFooter>

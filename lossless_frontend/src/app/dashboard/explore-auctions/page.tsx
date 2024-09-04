@@ -44,24 +44,16 @@ const Page = (props: Props) => {
                   width={400}
                 />
                 <div className="p-4">
-<<<<<<< Updated upstream
-                   <h3 className="text-lg font-semibold">{auction.name}</h3>
-                  <p className="mt-2 text-gray-500 dark:text-gray-400"> Min Bid: {"  "}
-                    {ethers.formatEther(auction.minValidBid)} ETH
-                  </p> 
-                  <Link href={`/dashboard/explore-auctions/${auction.auctionId}`} className="mt-4 text-sm hover:underline" >
-=======
                   <h3 className="text-lg font-semibold">{auction.name}</h3>
                   <p className="mt-2 text-gray-500 dark:text-gray-400">
                     {" "}
                     Min Bid: {"  "}
-                    {ethers.formatEther(auction.minValidBid)} Avax
+                    {ethers.formatEther(auction.minValidBid)} ETH
                   </p>
                   <Link
                     href={`/dashboard/explore-auctions/${auction.auctionId}`}
                     className="mt-4 text-sm hover:underline"
                   >
->>>>>>> Stashed changes
                     View Auction
                   </Link>
                 </div>
